@@ -4,7 +4,7 @@ body{
     /*mettre en foand et transparent*/
 }
 #background {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 #btn-search {
@@ -47,18 +47,19 @@ body{
     display: inline-block;
 }
 #actualites {
-    width: 80%;
+    width: 84%;
     margin: auto;
+    text-align: center;
     /*background-color:on verra plus tard*/ 
     /*border: 1px double blue;*/
 }
 
 #contacts {
     width: 15%;
-    margin-left: 0;
+    margin-left: 5px;
     /*border: 1px double blue;*/
     border-radius: 10px;
-    background-color: gray;
+    background-color: brown;
     color: white;
 }
 
@@ -134,7 +135,15 @@ body{
 
 /* TODO Couleur de fond des actualités */
 #actualites .panel-body {
-    background-color: magenta;
+    background-color: lightcoral;
+    text-align: justify;
+}
+
+#actualites .panel-body p {
+    text-align: center;
+}
+#actualites img {
+    width: 60%;
 }
 
 #actualites figcaption {
