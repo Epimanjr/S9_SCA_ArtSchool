@@ -113,3 +113,6 @@ body{
     text-decoration: underline;
     margin-right: 10%;
 }
+form {
+    background-color: #b74e4e;
+}
