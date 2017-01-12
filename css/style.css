@@ -6,7 +6,7 @@ body{
 
 #mynavbar {
     width: 90%;
-    background-color: grey;
+    background-color: green;
     position: absolute;
     margin-top: 100px;
     margin-left: 10%;
@@ -51,7 +51,7 @@ body{
     margin-left: 0;
     border: 1px double blue;
     border-radius: 10px;
-    background-color: lightslategray;
+    background-color: gray;
     color: white
 }
 
@@ -91,10 +91,11 @@ body{
 }
 #divslogan h1 {
     text-align: center;
+    color: white;/*marche po*/
 }
 
 #header {
-    background-color: #3294BD;
+    background-color: brown;
     padding-bottom: 5px;
     height: 146.6px;
 }
