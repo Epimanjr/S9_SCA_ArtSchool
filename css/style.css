@@ -27,7 +27,7 @@ body{
 #myCarousel {
     width: 100%;
     height: 200px;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 #myCarousel img {
     text-align: center;
@@ -43,19 +43,19 @@ body{
     width: 80%;
     margin: auto;
     /*background-color:on verra plus tard*/ 
-    border: 1px double blue;
+    /*border: 1px double blue;*/
 }
 
 #contacts {
-    width: 18%;
+    width: 15%;
     margin-left: 0;
-    border: 1px double blue;
+    /*border: 1px double blue;*/
     border-radius: 10px;
     background-color: gray;
-    color: white
+    color: white;
 }
 
-#contacts, #actualites {
+#contacts, #actualites, .actualite {
     display: inline-block;
     vertical-align: top;
     /*height: 250px;*/
