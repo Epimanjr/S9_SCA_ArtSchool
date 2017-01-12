@@ -1,7 +1,15 @@
+body{
+    background-image: url("C:\Users\MarineA\Desktop\S9_SCA_ArtSchool\images\yaleBbuilding.jpg");
+    /*opacity:à tester*/ 
+    /*mettre en foand et transparent*/
+}
+
 #mynavbar {
-    width: 100%;
-    margin: auto;
-    background-color: green;
+    width: 90%;
+    background-color: grey;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10%;
 }
 #mynavbar a {
     color: white;
@@ -34,15 +42,17 @@
 #actualites {
     width: 80%;
     margin: auto;
-    background-color: darkorange;
+    /*background-color:on verra plus tard*/ 
     border: 1px double blue;
 }
 
 #contacts {
     width: 18%;
-    margin-left: 1%;
+    margin-left: 0;
     border: 1px double blue;
-    background-color: magenta;
+    border-radius: 10px;
+    background-color: lightslategray;
+    color: white
 }
 
 #contacts, #actualites {
@@ -58,22 +68,36 @@
 
 .inheader {
     display: inline-block;
-    vertical-align: center;
+    vertical-align: top;
 }
-#divlogo, #divlogin {
+#divlogin {
     width: 20%;
+}
+#divpaslogo {
+    width: 89%;
+}
+#divlogo {
+    width: 10%;
+    padding-top: 5px; 
+}
+#divlogin {
     padding: 30px;
 }
 #divlogo img {
-    width: 150px;
+    width: 100px;
 }
 #divslogan {
-    width: 58%;
+    width: 78%;
 }
 #divslogan h1 {
     text-align: center;
 }
 
 #header {
-    background-color: cornflowerblue;
+    background-color: #3294BD;
+    padding-bottom: 5px;
+    height: 146.6px;
+}
+#divlogo figcaption {
+    color: white;
 }
