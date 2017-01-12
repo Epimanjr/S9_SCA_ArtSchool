@@ -58,7 +58,7 @@ body{
 #contacts, #actualites {
     display: inline-block;
     vertical-align: top;
-    height: 250px;
+    /*height: 250px;*/
 }
 
 #contacts h1 {
@@ -113,6 +113,13 @@ body{
     text-decoration: underline;
     margin-right: 10%;
 }
+
+/* TODO Couleur du fond du formulaire (légèrement plus claire) */
 form {
     background-color: #b74e4e;
+}
+
+/* TODO Pour la taille du texte dans l'actualité */
+#actualites figcaption {
+    font-size: 18px;
 }
