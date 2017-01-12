@@ -3,6 +3,13 @@ body{
     /*opacity:à tester*/ 
     /*mettre en foand et transparent*/
 }
+#background {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#btn-search {
+    background-color: gray;
+}
 
 #mynavbar {
     width: 90%;
@@ -26,13 +33,13 @@ body{
 
 #myCarousel {
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin: 0 0 20px 0;
 }
 #myCarousel img {
     text-align: center;
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
 .actualite {
     width: 44%;
@@ -76,6 +83,7 @@ body{
 #divlogo {
     width: 10%;
     padding-top: 5px; 
+    padding-left: 5px;
 }
 #divlogin {
     padding: 30px;
@@ -115,11 +123,24 @@ body{
 }
 
 /* TODO Couleur du fond du formulaire (légèrement plus claire) */
-form {
+#divlogin form {
     background-color: #b74e4e;
 }
 
 /* TODO Pour la taille du texte dans l'actualité */
+#actualites .panel-title {
+    font-size: 25px;
+}
+
+/* TODO Couleur de fond des actualités */
+#actualites .panel-body {
+    background-color: magenta;
+}
+
 #actualites figcaption {
     font-size: 18px;
+}
+
+#contacts input {
+    color: black;
 }
