@@ -9,6 +9,8 @@
 
     </head>
     <body>
+        <div id="background">
+
         <ul class="nav nav-tabs nav-justified" id="mynavbar">
             <li role="presentation"><a href="#">L'école</a></li>
             <li role="presentation" ><a href="#">Admissions</a></li>
@@ -52,37 +54,27 @@
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <!-- Image 1 -->
                 <div class="item active">
-                <img src="images/img_chania.jpg" alt="Chania">
+                <img src="images/img_1.jpg" alt="Chania">
                 <div class="carousel-caption">
-                    <h3>Chania</h3>
-                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    <h3></h3>
+                    <p></p>
                 </div>
                 </div>
 
                 <!-- Image 2 -->
                 <div class="item">
-                <img src="images/img_chania2.jpg" alt="Chania">
+                <img src="images/img_2.jpg" alt="Chania">
                 <div class="carousel-caption">
-                    <h3>Chania</h3>
-                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    
                 </div>
                 </div>
 
-                <!-- Image 3 -->
-                <div class="item">
-                <img src="images/img_chania2.jpg" alt="Chania">
-                <div class="carousel-caption">
-                    <h3>Chania</h3>
-                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                </div>
-                </div>
             </div>
 
             <!-- Left and right controls -->
@@ -108,7 +100,12 @@
                 <p><span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                 : 1156 Chapel St, New Haven, CT 06511, États-Unis </p>
                 <hr>
-                <h3>nous suivre :</h3>
+                <h3>Annuaire :</h3>
+
+                    <input type="text" name="search" placeholder="Entrer un nom" />
+                    <button type="" id="btn-search">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
 
             </div>
 
@@ -139,7 +136,8 @@
                     </div>
                 </div>
             </div>
-            
+
+        </div>
 
             <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
