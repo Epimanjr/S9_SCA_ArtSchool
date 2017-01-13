@@ -1,14 +1,13 @@
 body{
     background-image: url("../images/yaleBbuilding.jpg");
-    /*opacity:à tester*/ 
-    /*mettre en foand et transparent*/
+    
 }
 #background {
     background: rgba(255, 255, 255, 0.7);
 }
 
 #btn-search {
-    background-color: gray;
+    background-color: #428bca;
 }
 
 #mynavbar {
@@ -50,7 +49,7 @@ body{
     width: 84%;
     margin: auto;
     text-align: center;
-    /*background-color:on verra plus tard*/ 
+    
     /*border: 1px double blue;*/
 }
 
@@ -61,6 +60,7 @@ body{
     border-radius: 10px;
     background-color: brown;
     color: white;
+    padding: 5px;
 }
 
 #contacts, #actualites, .actualite {
@@ -111,6 +111,7 @@ body{
 }
 #divlogo figcaption {
     color: white;
+    font-size: 16px;
 }
 
 #divlogin label {
@@ -123,19 +124,19 @@ body{
     margin-right: 10%;
 }
 
-/* TODO Couleur du fond du formulaire (légèrement plus claire) */
+/* Couleur du fond du formulaire (légèrement plus claire) */
 #divlogin form {
     background-color: #b74e4e;
 }
 
-/* TODO Pour la taille du texte dans l'actualité */
+/*taille du texte dans l'actualité */
 #actualites .panel-title {
     font-size: 25px;
 }
 
-/* TODO Couleur de fond des actualités */
+/* Couleur de fond des actualités */
 #actualites .panel-body {
-    background-color: lightcoral;
+    background-color: white;
     text-align: justify;
 }
 
@@ -147,7 +148,8 @@ body{
 }
 
 #actualites figcaption {
-    font-size: 18px;
+    font-size: 20px;
+    color: black
 }
 
 #contacts input {
